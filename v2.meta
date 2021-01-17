@@ -1,0 +1,15 @@
+template point{
+    x:int,
+    y:int,
+    z:int
+};
+fn create_point(x:int, y:int, z:int){
+    set new_point = sub point;
+    println("made it 1");
+    new_point::x = x;
+    new_point::y = y;
+    new_point::z = z;
+    println("made it 2");
+    return new_point;
+};
+return "Loaded";

@@ -1,0 +1,5 @@
+println(load v2);
+set y = v2::create_point(50, 20, 10);
+println(y::x);
+println("hi!");
+return 0;
